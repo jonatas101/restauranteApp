@@ -1,3 +1,19 @@
 <ion-app>
-  <ion-router-outlet></ion-router-outlet>
+    <ion-menu side="start" menuId="first">
+        <ion-header>
+          <ion-toolbar color="primary">
+            <ion-title>Menu</ion-title>
+          </ion-toolbar>
+        </ion-header>
+        <ion-content>
+          <ion-list>
+            <ion-item routerLink="/ofertas" (click)="closeMenu()">Ofertas do dia</ion-item>
+            <ion-item routerLink="/pratos" (click)="closeMenu()">Pratos</ion-item>
+            <ion-item routerLink="/lanches" (click)="closeMenu()">Lanches</ion-item>
+            <ion-item routerLink="/bebidas" (click)="closeMenu()">Bebidas</ion-item>
+            <ion-item routerLink="/sobremesas" (click)="closeMenu()">Sobremesas</ion-item>
+          </ion-list>
+        </ion-content>
+      </ion-menu>
+  <ion-router-outlet main></ion-router-outlet>
 </ion-app>
