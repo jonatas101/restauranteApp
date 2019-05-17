@@ -9,6 +9,7 @@ const routes: Routes = [
   { path: 'bebidas', loadChildren: './pages/bebidas/bebidas.module#BebidasPageModule' },
   { path: 'sobremesas', loadChildren: './pages/sobremesas/sobremesas.module#SobremesasPageModule' },
   { path: 'ofertas', loadChildren: './pages/ofertas/ofertas.module#OfertasPageModule' },
+  { path: 'cart', loadChildren: './pages/cart/cart.module#CartPageModule' },
 ];
 
 @NgModule({
