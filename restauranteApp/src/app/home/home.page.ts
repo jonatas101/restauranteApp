@@ -13,7 +13,7 @@ export class HomePage implements OnInit {
   items = [];
 
   sliderConfig = {
-    slidesPerView: 1.6,
+    slidesPerView: 1.3,
     spaceBetween: 10,
     centeredSlides: true
   };

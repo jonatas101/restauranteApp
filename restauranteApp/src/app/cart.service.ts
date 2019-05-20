@@ -10,11 +10,11 @@ export class CartService {
       category: 'Pratos',
       expanded: false,
       products: [
-        {id: 0, name: 'Nhoque', price: '29', img: '/assets/imgs/pratos/nhoque.jpg'},
-        {id: 1, name: 'Carbonara', price: '32', img: '/assets/imgs/pratos/carbonara.jpg'},
+        {id: 0, name: 'Nhoque', price: '29', img: '/assets/imgs/pratos/nhoque.png'},
+        {id: 1, name: 'Carbonara', price: '32', img: '/assets/imgs/pratos/carbonara.png'},
         {id: 2, name: 'Lasanha', price: '29', img: '/assets/imgs/pratos/lasanha.jpg'},
         {id: 3, name: 'Ravioli', price: '36', img: '/assets/imgs/pratos/ravioli.jpg'},
-        {id: 4, name: 'Caneloni', price: '49', img: '/assets/imgs/pratos/caneloni.jpg'}
+        {id: 4, name: 'Caneloni', price: '49', img: '/assets/imgs/pratos/caneloni.png'}
       ]
     },
     {
